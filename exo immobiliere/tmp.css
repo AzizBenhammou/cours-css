@@ -1,0 +1,33 @@
+.container1 {
+	display: grid;  
+	grid-template-columns: 1fr;
+	border: solid 3px;
+	height: 100%;
+	flex-wrap: wrap;
+	}
+
+
+
+.container2 {
+display: grid;  
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+border: solid 3px;
+height: 400px;
+}
+
+
+
+.item1 {
+	border: solid 1px;
+
+
+}
+
+.item2 {
+	border: solid 1px;
+
+	
+}
+
+

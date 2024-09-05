@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+
+main {
+	background: #273978;
+	width: 50%;
+	margin: 2% auto;
+	font-family: "Shadows Into Light", cursive;
+	color: #fff;
+	padding: 1% 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4em;
+	margin: 0 auto 1vh;
+}
+
+section {
+	display: flex;
+	justify-content: space-around;
+}
+
+figure {
+	width: 25%;
+	margin: 1% 2%;
+}
+
+figcaption {
+	font-size: 1.5em;
+}
+
+img {
+	width: 200px;
+}

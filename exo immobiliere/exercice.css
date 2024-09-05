@@ -1,0 +1,47 @@
+.container-fluid {
+    
+	background-color: #343A40;
+}
+
+
+.mb-3 {
+width: 40%;
+text-align: left;
+
+
+}
+
+.mb-4 {
+	width: 40%;
+	
+	text-align: left;
+	
+	
+}
+
+
+
+
+#formnom1 {
+	width: 60%;
+
+}
+
+
+#formmail1 {
+	width: 60%;
+
+}
+
+#textarea1 {
+	width: 60%;
+	height: 200px;
+
+
+}
+
+footer {
+	padding: 25px;
+	background-color: #33b5e5;
+	color: #fff;
+}

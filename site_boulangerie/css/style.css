@@ -1,0 +1,185 @@
+.footer {
+background-color: #C86D35;
+text-align: center;
+padding: 20px;
+color: white;
+font-size: 20px;
+
+}
+
+
+ul{
+    display: table;
+    width: 100%;
+  }
+  ul li{
+    display: table-cell;
+    padding: 30px;
+  }
+
+
+.container_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C86D35;
+
+}
+
+
+
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #C86D35;
+    font-family: 'Arial';
+    color: white;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #C86D35;
+    font-family: 'Arial';
+    color: white;
+}
+
+
+.container_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    
+    
+}
+
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../img/hero.jpg");
+    background-size: 100% 100%;
+    font-family: 'Arial';
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+
+.item3a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.notre_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.btn1 {
+    background-color: #FF6347;
+    border-radius: 10px;
+    height: 50px;
+    width:100px;
+    color: white;
+    box-shadow: 0px;
+    border: 0px;
+
+
+} 
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-family: 'Arial';
+    margin-bottom: 70px;
+
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    font-family: 'Arial';
+    width: 100%;
+    
+}
+
+.item6 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial';
+    margin-bottom: 40px;
+       
+}
+
+.form1 {
+    width: 100%;
+    border-color: rgb(78, 78, 78);
+
+
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+@media screen and (min-width: 425px) {
+	
+	.container_main {
+		flex-wrap: wrap; 
+        flex-direction: row;
+        
+        column-gap:  20px;
+	}
+
+   
+}
+
+
